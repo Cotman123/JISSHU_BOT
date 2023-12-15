@@ -893,7 +893,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     
     elif query.data.startswith("checksub"):
         if AUTH_CHANNEL and not await is_subscribed(client, query):
-            await query.answer("Jᴏɪɴ ᴏᴜʀ Bᴀᴄᴋ-ᴜᴘ ᴄʜᴀɴɴᴇʟ ᴍᴀʜɴ! 😒", show_alert=True)
+            await query.answer("Thank you for your interest! To access the file, please follow these steps: \n1. Make a payment of 10 rupees. \n2. Upload an image to RDX_mc. \n3. Once completed, you'll receive the file. \n\nIf you encounter any issues or have questions, feel free to reach out to our support team. Happy downloading!", show_alert=True)
             return
         ident, kk, file_id = query.data.split("#")
         await query.answer(url=f"https://t.me/{temp.U_NAME}?start={kk}_{file_id}")
