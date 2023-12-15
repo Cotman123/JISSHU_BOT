@@ -87,8 +87,8 @@ async def start(client, message):
                 btn.append([InlineKeyboardButton("↻ Tʀʏ Aɢᴀɪɴ", url=f"https://t.me/{temp.U_NAME}?start={message.command[1]}")])
         await client.send_photo(
             chat_id=message.from_user.id,
-            photo="https://telegra.ph/file/20b4aaaddb8aba646e53c.jpg",
-            caption="**You are not in our channel given below so you don't get the movie file...\n\nIf you want the movie file, click on the '🍿ᴊᴏɪɴ ᴏᴜʀ ʙᴀᴄᴋ-ᴜᴘ ᴄʜᴀɴɴᴇʟ🍿' button below and join our back-up channel, then click on the '🔄 Try Again' button below...\n\nThen you will get the movie files...**",
+            photo="https://telegra.ph/file/638a6b6009e37b33c38b1.jpg",
+            caption="**📲 Payment Instructions:** \n\nScan the QR code provided to make your payment and unlock the premium membership benefits! \n\n**💳 Payment Details:** \n- Amount: Rs.10 per month \n\n**📷 Payment Confirmation:** \n- After making the payment, share the screenshot through the link below. \n\n**🔗 Screenshot Submission:**Submit Screenshot \n          👇👇\n https://t.me/RDX_mc_bot \n\n**🕒 Verification Process:**  \n- Premium membership will be granted after verification. \n- Allow up to 24 hours for the processing of your premium membership. \n\n**Thank you for choosing our premium services! If you encounter any issues or have questions, feel free to contact us through the provided link.**",
             reply_markup=InlineKeyboardMarkup(btn),
             parse_mode=enums.ParseMode.MARKDOWN
             )
