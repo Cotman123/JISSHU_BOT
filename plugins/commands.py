@@ -74,7 +74,7 @@ async def start(client, message):
         btn = [
             [
                 InlineKeyboardButton(
-                    "Payment QR code", url= 'https://t.me/mc_subtitles_bot?start=PTN1034548541460'
+                    "upload payment screenshot", url= 'https://t.me/RDX_mc_bot'
                 )
             ]
         ]
